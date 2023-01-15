@@ -7,9 +7,11 @@ void main() => runApp(
 
           appBar: AppBar(
 
-            title: Text('I am Azizur'),
+            title: Center(
+             child: Text('I am AH'),
+            ),
             backgroundColor: Colors.pinkAccent,
-        ),
+          ),
           body: Center(
             child: Image(
               image: NetworkImage('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT3Wjd-Cak78mooEfHTx64D7xhFtgBMZRFiiQ&usqp=CAU'),
